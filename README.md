@@ -5,6 +5,8 @@ This program requires you to have Python 3.0 or above and Pygame installed.
 You can install Python at the link below if you don't already have it. Make sure to check the small "Add To Path" checkbox in the installation process. https://www.python.org/downloads/ 
 
 To install pygame, first have Python installed, then run "python -m pip install pygame" in your terminal.
+![image](https://user-images.githubusercontent.com/106367530/204106113-5d04e3f1-ec2e-4e90-85d5-6439fe11a984.png)
+
 
 ## Usage
 Draw some shapes, turn them into softbodies, and then squish them.
