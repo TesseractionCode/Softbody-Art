@@ -1,4 +1,12 @@
 # Softbody-Art
+
+## Dependencies
+This program requires you to have Python 3.0 or above and Pygame installed.
+You can install Python at the link below if you don't already have it. Make sure to check the small "Add To Path" checkbox in the installation process. https://www.python.org/downloads/ 
+
+To install pygame, first have Python installed, then run "python -m pip install pygame" in your terminal.
+
+## Usage
 Draw some shapes, turn them into softbodies, and then squish them.
 
 To start drawing, run the main.py file, then hold left click and drag. The radius of your brush is shown by the size of the blue circle around your mouse. The size of your brush can be changed by scrolling up and down.
@@ -24,3 +32,5 @@ Now just press Space to switch to physics mode. Holding your left mouse button d
 ![image](https://user-images.githubusercontent.com/106367530/204105463-f63db096-b27b-4456-8e69-d8632d06d9f4.png)
 
 And now you can enjoy making your very own squishies!
+
+
