@@ -64,7 +64,7 @@ class MyGame(Game):
                     direction = (particle.pos - Vector2(mouse_pos)).normalize()
                     if squared_dist == 0:
                         continue
-                    force = (100000 / squared_dist) * direction
+                    force = (100 * self.physics_strength**2 / squared_dist) * direction
                     
                     particle.applyForce(force)
             if EventHandler.getRightMouse():
@@ -73,7 +73,7 @@ class MyGame(Game):
                     direction = (particle.pos - Vector2(mouse_pos)).normalize()
                     if squared_dist == 0:
                         continue
-                    force = (100000 / squared_dist) * direction
+                    force = (100 * self.physics_strength**2 / squared_dist) * direction
                     
                     particle.applyForce(-force)
         else:
