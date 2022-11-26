@@ -13,8 +13,8 @@ class MyGame(Game):
         self.canvas = pygame.Surface(self.res, pygame.SRCALPHA)
         self.draw_color = (180, 180, 180)
         
-        self.particle_spacing = 20
-        self.stiffness = 10000
+        self.particle_spacing = 12
+        self.stiffness = 100
         self.damping = 1
         
         self.draw_radius = 5
